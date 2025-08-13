@@ -1,5 +1,49 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap');
+
+
 
 body{
-    background: white;
+    background: linear-gradient(to right, rgba(4, 53, 4, 0.918), rgb(157, 250, 181));
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;   
+    margin: 0; 
+}
+.carta {
+  font-family: 'Mountains of Christmas';
+  font-size: 2rem;
+}
+.top_figure, .card_number, .buttom_figure{
+    font-size: 6rem;
+    
+}
+.card_midd{
+    width: 23rem;
+    height: 30rem;
+    border-radius: 12px;    
+}
+.top_figure{
+    margin-right: auto;
+    margin-left: 1rem;
+}
+.card_number{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.buttom_figure{
+    margin-left: auto;
+    margin-right: 1rem;
+}
+.bg{
+   background: linear-gradient(to right, rgba(222, 235, 50, 0.918), #ee4d0e);
+   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.63);
+}
+.black {
+    color: black;
+}
+.red {
+  color: red;
 }
